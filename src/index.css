@@ -1,13 +1,121 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --main-font: "Quicksand", sans-serif;
+  --alternate-font: sans-serif;
+  --font-size: 16px;
+  --line-height: 1.6;
+
+  --main-color: rgb(33, 209, 209);
+  --main-modal-color: rgb(33, 209, 209, 0.75);
+  --second-color: rgb(20, 25, 45);
+  --second-modal-color: rgba(20, 25, 45, 0.75);
+  --alternate-color: rgb(80, 20, 100);
+  --alternate-modal-color: rgb(80, 20, 100, 0.75);
+  --action-color: rgb(123, 84, 194);
+  --action-modal-color: rgba(109, 82, 185, 0.75);
+
+  --color-b: #8ed8f8;
+  --bg-modal-color: rgba(242, 244, 247, 0.75);
+  --bg-alternate-color: rgb(255, 255, 255);
+  --bg-alternate-modal-color: rgba(255, 255, 255, 0.75);
+  --border-color: #ddd;
+
+  --text-color: #515b6d;
+  --title-color: #333;
+
+  --secondk-color: rgb(41, 58, 32);
+  --main-color2: #d4c6aa80;
+
+  --link-color: #509ee3;
+  --link-hover-color: var(--main-color);
+
+  --max-width: 1200px;
+  --header-height: 5rem;
+
+  --logo-width: 5rem;
+  --logo-height: 5rem;
+  --logo-spacing: 0.5rem;
+
+  --nav-height: 64px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ********** Reset Styles ********** */
+html {
+  font-family: var(--main-font), var(--alternate-font);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--text-color);
+  background-color: var(--color-b);
+}
+
+body {
+  position: relative !important;
+  padding-top: 2rem !important;
+  font-family: var(--main-font) !important;
+  font-size: inherit !important;
+  color: inherit !important;
+  background-color: inherit !important;
+  overflow-x: hidden;
+  font-family: sd;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+h2 {
+  font-size: 3.2rem !important;
+}
+
+h3 {
+  font-size: 2.5rem !important;
+}
+
+::selection {
+  background-color: var(--main-color2);
+  color: var(--secondk-color);
+}
+
+.HImg {
+  padding-top: 0 !important;
+  min-height: calc(100vh - var(--logo-height));
+  background-size: auto;
+  background-color: #8ed8f8;
+  background-size: 400% 400%;
+  position: relative;
+}
+.u-fullScreen {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ddfadasd */
+
+@media (max-width: 576px) {
+  .tt {
+    font-size: 1rem !important;
+  }
+}
+
+/* ********** Media Queries Medium ********** */
+@media (min-width: 768px) {
+}
+
+/* ********** Media Queries Large ********** */
+@media (min-width: 992px) {
+  .nav-item:hover {
+    background-color: transparent;
+  }
+  .u-flowText {
+    font-size: 1.75rem !important;
+  }
+}
+
+/* ********** Media Queries ExtraLarge ********** */
+@media (min-width: 1200px) {
 }

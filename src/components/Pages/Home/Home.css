@@ -1,0 +1,61 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.u-eiScreen {
+  width: 100%;
+  min-height: 86vh;
+}
+.tp {
+  color: #1e212f;
+}
+.tp2 {
+  color: #1e212f;
+}
+.u-flowText {
+  font-size: 1.4rem !important;
+}
+h2 {
+  font-size: 3.8rem !important;
+}
+h3 {
+  font-size: 2.5rem !important;
+}
+h4 {
+  font-size: 2rem !important;
+}
+.mm {
+  width: auto;
+  height: 35px;
+}
+.mm2 {
+  width: auto;
+  height: 35px;
+}
+@media (min-width: 576px) {
+  .containerr {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .containerr {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .containerr {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-me {
+    max-width: 1342px !important;
+  }
+}
+.img-fluid2 {
+  max-width: 50%;
+  height: auto;
+}
+.bg-me {
+  background-color: #fffffe;
+}

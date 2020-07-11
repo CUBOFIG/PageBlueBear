@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --main-font: "Roboto", sans-serif;
+  --alternate-font: sans-serif;
+  --font-size: 16px;
+  --line-height: 1.6;
+
+  --m-f: "Montserrat", sans-serif;
+  --meModal: #fefeff;
+  --main-color: #1e212f;
+
+  --main-modal-color: rgb(33, 209, 209, 0.75);
+  --second-color: rgb(20, 25, 45);
+  --second-modal-color: rgba(20, 25, 45, 0.75);
+  --alternate-color: rgb(80, 20, 100);
+  --alternate-modal-color: rgb(80, 20, 100, 0.75);
+  --action-color: rgb(123, 84, 194);
+  --action-modal-color: rgba(109, 82, 185, 0.75);
+
+  --bg-color: rgb(242, 244, 247);
+  --bg-modal-color: rgba(242, 244, 247, 0.75);
+  --bg-alternate-color: rgb(255, 255, 255);
+  --bg-alternate-modal-color: rgba(255, 255, 255, 0.75);
+  --border-color: #ddd;
+
+  --text-color: #515b6d;
+  --title-color: #333;
+
+  --link-color: #509ee3;
+  --link-hover-color: var(--main-color);
+
+  --max-width: 1200px;
+  --header-height: 5rem;
+
+  --logo-width: 6rem;
+  --logo-height: 6rem;
+  --logo-spacing: 0.5rem;
+
+  --nav-height: 64px;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.xx {
+  font-family: var(--m-f) !important;
+}
+
+.bg-suc {
+  background-size: auto;
+  background-color: var(--main-color) !important;
+}
+
+.bg-suc:hover {
+  background: linear-gradient(-45deg, #90ee52, #7be960);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 15s ease-in-out infinite;
+}
+.PaddingNavLogo {
+  width: auto;
+  /* height: 190px !important; */
+  padding: 0 !important;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.navbar-togglers {
+  border: 0 !important;
+}
+.navbar-togglers:hover,
+.navbar-togglers:focus {
+  outline: 0;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  transition: all 0.3s ease;
+}
+.navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 209, 209%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navlink-m {
+  color: var(--main-color) !important;
+  font-size: 1.15rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  padding-right: 0.25rem;
+}
+.navlink-m:hover {
+  color: var(--meModal) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--main-color) !important;
+  font-size: 1.15rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--bg-color) !important;
+}
+
+.navbar-dark .navbar-nav .s {
+  display: block;
+  color: var(--meModal) !important;
+  font-size: 1.15rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.navbar-dark .navbar-nav .s:hover {
+  color: var(--main-color) !important;
+}
+
+.navbar-dark .navbar-nav .ss {
+  display: block;
+  color: var(--meModal) !important;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.sss {
+  border: 1.7px solid var(--meModal);
+  padding: 0.2rem 0.5rem !important;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 16px;
+}
+.sss:hover {
+  background-color: var(--main-color);
+  transition: all 0.3s ease;
+}
+
+.navbar-brand img {
+  height: var(--logo-height) !important;
+  width: auto;
+  /* padding: var(--logo-spacing) !important; */
+}
+
+.nav-item:hover {
+  transition: all 0.3s ease;
+}
+
+.containerr {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .containerr {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .containerr {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .containerr {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-me {
+    max-width: 1342px !important;
+  }
+}
+/* .navbar {
+  background-color: #053246;
+} */
