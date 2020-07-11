@@ -59,3 +59,7 @@ h4 {
 .bg-me {
   background-color: #fffffe;
 }
+.u-fullScreen {
+  width: 100%;
+  min-height: 100vh;
+}

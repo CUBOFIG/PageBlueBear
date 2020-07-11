@@ -49,7 +49,7 @@ const Navbare = () => {
                 smooth={true}
                 spy={true}
                 duration={500}
-                offset={-50}
+                offset={-0}
                 type="button"
                 className="navlink-m"
               >
